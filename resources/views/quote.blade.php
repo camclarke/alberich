@@ -24,7 +24,7 @@
                     <input type="text" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Description if available">
                     </div>
                 </div>
-                <p>Basic configuration</p>
+                <h3>Basic configuration</h3>
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                     <label class="form-check-label" for="defaultCheck1">
@@ -48,6 +48,22 @@
                     <label class="form-check-label" for="defaultCheck1">
                         Bluetooth EDR
                     </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck1">
+                        Celular
+                    </label>
+                </div>
+                <br>
+                <h3>Power supply unit</h3>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">Internal</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">External</label>
                 </div>
 
             </form>
