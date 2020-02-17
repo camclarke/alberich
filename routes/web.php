@@ -19,3 +19,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/httprequestget','TestHttpRequest@index');
+Route::get('/quote', 'QuoteController@index')->name('quote');
