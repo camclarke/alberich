@@ -18,5 +18,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/httprequestget','TestHttpRequest@index');
+Route::get('/httprequestget','TestHttpRequest@index');//This is a test
 Route::get('/quote', 'QuoteController@index')->name('quote');
+Route::get('/pass/{id}','TestParamPasser@index');//This is a test
